@@ -1,6 +1,6 @@
 html {
-  /*background: url('./assets/background.png') no-repeat center center fixed;*/
-  background: url('https://github.com/Thinkful-Ed/js-dev-final-capstone-starter/blob/main/assets/background.png?raw=true') no-repeat center center fixed;
+  background: url('/assets/background2.jpg') no-repeat center center fixed;
+ /* background: url('https://github.com/Thinkful-Ed/js-dev-final-capstone-starter/blob/main/assets/background.png?raw=true') no-repeat center center fixed; */
   box-sizing: border-box;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -10,10 +10,13 @@ html {
   overflow: hidden;
 }
 
+body{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
 h1 {
   text-align: center;
   font-size: 90px;
-  font-family: "Comic Sans MS", "Comic Sans", cursive;
   color: white;
   -webkit-text-stroke: 2px black;
 }
@@ -31,10 +34,11 @@ h2 {
 }
 
 #timer{
-    color: white;
+    color: rgb(233, 236, 216)
 }
 
 .grid {
+  padding-top: 10%;
   width: 600px;
   height: 400px;
   display: flex;

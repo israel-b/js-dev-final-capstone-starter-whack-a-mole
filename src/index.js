@@ -255,8 +255,10 @@ function stopGame(){
 *
 */
 function startGame(){
+  stopGame();
   setDuration(10);
   showUp();
+  clearScore();
   startTimer();
   setEventListeners();
   return "game started";
